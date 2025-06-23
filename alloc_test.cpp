@@ -119,7 +119,7 @@ int main() {
       }
     }
 }
-    // Cleanup
+  //Ceanup
   vkDestroyDevice(device, nullptr);
   vkDestroyInstance(instance, nullptr);
   return 0;
