@@ -101,7 +101,7 @@ int main() {
     }
 
     // Allocate and free in a loop
-    for (int i = 0; i < 50; ++i) {
+    for (int i = 0; i < 100; ++i) {
       {
         ZoneScopedN("vkAllocateMemory");
         VkMemoryAllocateInfo ai{};
